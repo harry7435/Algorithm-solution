@@ -25,4 +25,4 @@ def star(x):
 star(n) # 함수 실행
 
 for line_board in board:
-  print(''.join(line_board))
+  print(''.join(line_board)) 
