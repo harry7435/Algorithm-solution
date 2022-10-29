@@ -20,6 +20,5 @@ def solution(n, words):
             cnt = (length - 1) // n + 1
             break
     answer = [num, cnt]
-    print(answer)
 
     return answer
