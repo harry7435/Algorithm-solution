@@ -5,7 +5,7 @@ input = sys.stdin.readline
 n, k = map(int, input().split())
 min_time = [0 for _ in range(100001)]
 # bfs 최소 시간이므로
-def bfs(start):
+def bfs(start, k):
     queue = deque([start])
     while queue:
         location = queue.popleft()
@@ -20,4 +20,4 @@ def bfs(start):
                 min_time[m] = min_time[location] + 1
                 queue.append(m)
 
-bfs(n)
+bfs(n, k)
