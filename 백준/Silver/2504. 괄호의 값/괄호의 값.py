@@ -3,7 +3,7 @@ input = sys.stdin.readline
 
 stack = []  # 괄호 스택
 cal = 1     # 중간 계산 스택
-answer = 0  # 쵱종 결과
+answer = 0  # 최종 결과
 s_list = list(input().rstrip())
 # 괄호 체크 시작
 for idx in range(len(s_list)):
